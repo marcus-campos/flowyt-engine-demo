@@ -45,6 +45,14 @@ $ cp .env.example .env
 $ ./orchestryzi
 ```
 
+Se tudo estiver correto, você verá o seguinte retorno no terminal:
+
+```
+* Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+```
+
+Para ver as rotas disponíveis para uso acesse: `http://127.0.0.1:5555/_workspaces/routes`
+
 ## O que são workspaces?
 Um workspaces é um grupo de configurações, fluxos e funções que compõe um projeto. Um woskpace padrão tem a seguinte estrutura:
 
