@@ -1,0 +1,7 @@
+[
+    {
+        "method": "get",
+        "path": "/getReposByUser",
+        "flow": "search"
+    }
+]

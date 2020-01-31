@@ -1,0 +1,62 @@
+{
+    "id": "f9033cf9-2336-474f-b785-0c334177dfb3",
+    "name": "Github",
+    "pipeline": [
+        {
+            "id": "1",
+            "action": "start",
+            "data": {},
+            "next_action": "2"
+        },
+        {
+            "id": "2",
+            "action": "flow_var",
+            "data": {
+                "url": "${env.baseUrl}/users/${request.qs.user}/repos?sort=updated&direction=asc"
+            },
+            "next_action": "3"
+        },
+        {
+            "id": "3",
+            "action": "request",
+            "data": {
+                "url": "${flow.url}",
+                "method": "get",
+                "headers": {},
+                "data": {},
+                "next_action_success": "4",
+                "next_action_fail": "6"
+            },
+            "next_action": "${pipeline.next_action}"
+        },
+        {
+            "id": "4",
+            "action": "workspace_var",
+            "data": {
+                "response": "${response}"
+            },
+            "next_action": "5"
+        },
+        {
+            "id": "5",
+            "action": "jump",
+            "data": {
+                "next_flow": "mining"
+            },
+            "next_action": null
+        },
+        {
+            "id": "6",
+            "action": "response",
+            "data": {
+                "status": 400,
+                "headers": {},
+                "data": {
+                    "msg": "Something went wrong",
+                    "data": "${response.data}"
+                }
+            },
+            "next_action": null
+        }
+    ]
+}

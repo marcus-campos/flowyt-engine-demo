@@ -1,0 +1,22 @@
+{
+    "id": "f9033cf9-6666-474f-b785-0c334177dfb3",
+    "name": "trait",
+    "pipeline": [
+        {
+            "id": "1",
+            "action": "start",
+            "data": {},
+            "next_action": "2"
+        },
+        {
+            "id": "2",
+            "action": "response",
+            "data": {
+                "status": 201,
+                "headers": {},
+                "data": "${function.treatment.get_new_data(workspace.response.data)}"
+            },
+            "next_action": null
+        }
+    ]
+}

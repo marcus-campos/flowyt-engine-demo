@@ -1,0 +1,7 @@
+[
+    {
+        "method": "get",
+        "path": "/example",
+        "flow": "example"
+    }
+]

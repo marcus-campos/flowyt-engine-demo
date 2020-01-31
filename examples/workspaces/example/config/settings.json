@@ -1,0 +1,12 @@
+{
+    "id": "025d4f46-ca68-4da5-ae8d-c7d8cc64b737",
+    "name": "",
+    "debug": true,
+    "release": {
+        "id": "99ea46c1-cb6b-447f-97f5-6e013d7b8f05",
+        "name": "v0.0.1"
+    },
+    "integrations": {},
+    "env": {
+    }
+}

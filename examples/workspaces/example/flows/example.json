@@ -1,0 +1,12 @@
+{
+    "id": "f9033cf9-6666-474f-b785-0c334177dfb3",
+    "name": "Example",
+    "pipeline": [
+        {
+            "id": "1",
+            "action": "start",
+            "data": {},
+            "next_action": "2"
+        }
+    ]
+}
