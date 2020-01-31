@@ -23,7 +23,7 @@ a pasta. Se você se perder, seu terminal deve mostrar
 em qual diretório você está e executando `ls` (no Mac ou Linux,` dir` no Windows),
 listará o conteúdo da pasta em que você está. Use `cd ..` para fazer o voltar uma pasta.
 
-Baixe na aba [releases]("/releases/latest") a versão mais recente do Orchestryzi compatível com seu sistema, e extraia o conteudo dentro da pasta `projects` que você acabou de criar:
+Baixe na aba [releases](https://github.com/marcus-campos/orchestryzi-engine-demo/releases/latest) a versão mais recente do Orchestryzi compatível com seu sistema, e extraia o conteudo dentro da pasta `projects` que você acabou de criar:
 
 ```shell
 $ mv orchestryzi.zip projects
