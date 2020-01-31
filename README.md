@@ -8,8 +8,8 @@ Muito se fala em microsserviços atualmente e, neste ambiente complexo e com mui
 
 
 ## Começando
-Você instalou o Python e os outros utilitários (pip, virtualenv e git) no
-seu computador, certo? Caso contrário, [vá aqui para instalar](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-ubuntu-18-04-quickstart).
+Você instalou o Python 3.8.1 e os outros utilitários (pip, virtualenv e git) no
+seu computador, certo? Caso contrário, [vá aqui para instalar](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-ubuntu-18-04-quickstart-pt).
 
 A primeira coisa que precisamos fazer é criar uma pasta para o seu projeto. Se você quiser fazer isso também, siga estes comandos no seu terminal para criar a pasta `projects` (essa etapa é opcional):
 
