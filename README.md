@@ -1,7 +1,7 @@
 # Orchestryzi
 
 ## O que é?
-Conforme a quantidade de microsserviços cresce, também cresce a sua complexidade. Por isso o time da Devyzi desenvolveu um orquestrador baseado em fluxos de processos para tornar mais difícil a visibilidade da distribuição dos fluxos sem a utilização de um orquestrador central.
+Conforme a quantidade de microsserviços cresce, também cresce a sua complexidade. Por isso o time da Devyzi desenvolveu um orquestrador baseado em fluxos de processos para tornar mais fácil a visibilidade da distribuição dos fluxos sem a utilização de um orquestrador central.
 
 ## Por que microsserviços?
 Muito se fala em microsserviços atualmente e, neste ambiente complexo e com muita atividades paralelas e automações de processos de negócios, é necessário um serviço de orquestração. Assim, o Orchestryzi habilita a orquestração entre os serviços e também fornece controle e visibilidade para as interações. Essa habilidade da ao time de engenharia a possibilidade de alavancar os serviços existentes, construir novos fluxos e atualizar os existentes, aumentando assim a velocidade de utilização do fluxo, o que forneceu uma rota efetivamente mais fácil para a adoção da solução.
