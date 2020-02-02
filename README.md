@@ -48,7 +48,21 @@ $ ./orchestryzi
 Se tudo estiver correto, você verá o seguinte retorno no terminal:
 
 ```
-* Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+
+    ____           _               _                  _    
+   / __ \         | |             | |                (_)   
+  | |  | |_ __ ___| |__   ___  ___| |_ _ __ _   _ _____    
+  | |  | | '__/ __| '_ \ / _ \/ __| __| '__| | | |_  / |   
+  | |__| | | | (__| | | |  __/\__ \ |_| |  | |_| |/ /| |   
+   \____/|_|  \___|_| |_|\___||___/\__|_|   \__, /___|_|   
+                                           __/ /           
+                                          |___/            
+                                                           
+                                              By: Devyzi   
+
+
+ * Check available routes at http://localhost:5000/_workspaces/routes
+ * Running on http://localhost:5000/ (Press CTRL+C to quit)
 ```
 
 Para ver as rotas disponíveis para uso acesse: `http://127.0.0.1:5555/_workspaces/routes`
@@ -183,3 +197,4 @@ Essa estrutura é utilizada para definir o que vai ser executado e qual é a pr�
 
 * [Template literals](concepts/template_literals.md)
 * [Funções](concepts/functions.md)
+* [Debug](concepts/debug.md)
