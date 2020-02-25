@@ -1,5 +1,5 @@
 # switch
-Essa ação é utilizada para se tomar decições dentro do fluxo:
+Essa ação é utilizada para se tomar decisões dentro do fluxo:
 
 Ex:
 ```json
