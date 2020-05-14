@@ -1,10 +1,10 @@
-# Orchestryzi
+# Flowyt
 
 ## O que é?
 Conforme a quantidade de microsserviços cresce, também cresce a sua complexidade. Por isso o time da Devyzi desenvolveu um orquestrador baseado em fluxos de processos para tornar mais fácil a visibilidade da distribuição dos fluxos sem a utilização de um orquestrador central.
 
 ## Por que microsserviços?
-Muito se fala em microsserviços atualmente e, neste ambiente complexo e com muita atividades paralelas e automações de processos de negócios, é necessário um serviço de orquestração. Assim, o Orchestryzi habilita a orquestração entre os serviços e também fornece controle e visibilidade para as interações. Essa habilidade da ao time de engenharia a possibilidade de alavancar os serviços existentes, construir novos fluxos e atualizar os existentes, aumentando assim a velocidade de utilização do fluxo, o que forneceu uma rota efetivamente mais fácil para a adoção da solução.
+Muito se fala em microsserviços atualmente e, neste ambiente complexo e com muita atividades paralelas e automações de processos de negócios, é necessário um serviço de orquestração. Assim, o Flowyt habilita a orquestração entre os serviços e também fornece controle e visibilidade para as interações. Essa habilidade da ao time de engenharia a possibilidade de alavancar os serviços existentes, construir novos fluxos e atualizar os existentes, aumentando assim a velocidade de utilização do fluxo, o que forneceu uma rota efetivamente mais fácil para a adoção da solução.
 
 
 ## Começando
@@ -23,7 +23,7 @@ a pasta. Se você se perder, seu terminal deve mostrar
 em qual diretório você está e executando `ls` (no Mac ou Linux,` dir` no Windows),
 listará o conteúdo da pasta em que você está. Use `cd ..` para fazer o voltar uma pasta.
 
-Baixe na aba [releases](https://github.com/marcus-campos/orchestryzi-engine-demo/releases/latest) a versão mais recente do Orchestryzi compatível com seu sistema, e extraia o conteudo dentro da pasta `projects` que você acabou de criar:
+Baixe na aba [releases](https://github.com/marcus-campos/orchestryzi-engine-demo/releases/latest) a versão mais recente do Flowyt compatível com seu sistema, e extraia o conteudo dentro da pasta `projects` que você acabou de criar:
 
 ```shell
 $ mv orchestryzi.zip projects
